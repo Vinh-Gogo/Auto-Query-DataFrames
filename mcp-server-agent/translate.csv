@@ -1,0 +1,653 @@
+english, vietnamese
+dbId,ID cơ sở dữ liệu
+external_id,ID bên ngoài
+ElementId,ID phần tử
+Name,Tên
+Category,Thể loại
+CategoryId,ID thể loại
+Workset,Bộ công việc
+Edited by,Được chỉnh sửa bởi
+Image,Hình ảnh
+Keynote,Khóa luận
+Export to IFC,Xuất sang IFC
+Export to IFC As,Xuất sang IFC như
+IFC Predefined Type,Loại IFC định nghĩa trước
+IfcGUID,GUID IFC
+Model,Mô hình
+Manufacturer,Nhà sản xuất
+Comments,Ghi chú
+URL,URL
+Description,Mô tả
+Cost,Chi phí
+Mark,Ký hiệu
+Color,Màu sắc
+Transparency,Độ trong suốt
+Glow,Ánh sáng
+Smoothness,Độ mịn
+Shininess,Độ sáng
+Material Type,Loại vật liệu
+Class,Lớp
+Subclass,Lớp con
+Behavior,Hành vi
+Young modulus X,Modul đàn hồi X
+Young modulus Y,Modul đàn hồi Y
+Young modulus Z,Modul đàn hồi Z
+Poisson ratio X,Tỷ số Poisson X
+Poisson ratio Y,Tỷ số Poisson Y
+Poisson ratio Z,Tỷ số Poisson Z
+Shear modulus X,Modul cắt X
+Shear modulus Y,Modul cắt Y
+Shear modulus Z,Modul cắt Z
+Thermal expansion coefficient X,Tỷ số giãn nở nhiệt X
+Thermal expansion coefficient Y,Tỷ số giãn nở nhiệt Y
+Thermal expansion coefficient Z,Tỷ số giãn nở nhiệt Z
+Unit weight,Trọng lượng đơn vị
+Minimum yield stress,Áp suất kéo tối thiểu
+Minimum tensile strength,Độ bền kéo tối thiểu
+Thermally Treated,Được xử lý nhiệt
+Reduction factor for shear,Tỷ số giảm cho cắt
+Concrete compression,Nén bê tông
+Lightweight,Nhẹ
+Shear strength modification,Điều chỉnh độ bền cắt
+Young modulus,Modul đàn hồi
+Poisson ratio,Tỷ số Poisson
+Shear modulus,Modul cắt
+Thermal expansion coefficient,Tỷ số giãn nở nhiệt
+Species,Loài
+Grade,Độ
+Bending,Uốn
+Compression parallel to grain,Nén song song với hạt
+Compression perpendicular to grain,Nén vuông góc với hạt
+Shear parallel to grain,Cắt song song với hạt
+Tension perpendicular to grain,Tension vuông góc với hạt
+Type Name,Tên loại
+View Template applied to new views,Mẫu xem được áp dụng cho các xem mới
+New views are dependent on template,Các xem mới phụ thuộc vào mẫu
+Elevation Tag,Đánh dấu độ cao
+Callout Tag,Đánh dấu gọi tên
+Reference Label,Nhãn tham chiếu
+hyperlink,Liên kết siêu
+View Template,Mẫu xem
+View Name,Tên xem
+Dependency,Tương thuộc
+Title on Sheet,Tiêu đề trên tờ
+View Scale,Kích thước xem
+Scale Value,Giá trị kích thước
+Display Model,Hiển thị mô hình
+Detail Level,Cấp chi tiết
+Parts Visibility,Độ nhìn thấy của các phần
+Referencing Sheet,Tờ tham chiếu
+Referencing Detail,Chi tiết tham chiếu
+Crop View,Cắt xem
+Crop Region Visible,Vùng cắt nhìn thấy
+Annotation Crop,Cắt chú thích
+Visibility/Graphics Overrides,Đặt biệt quyền nhìn thấy/hiển thị
+Graphic Display Options,Tùy chọn hiển thị đồ họa
+Far Clipping,Cắt xa
+Far Clip Offset,Offset cắt xa
+Hide at scales coarser than,Ẩn ở các cấp độ lớn hơn
+Phase Filter,Lọc giai đoạn
+Phase,Giai đoạn
+Scope Box,Hộp phạm vi
+Discipline,Ngành
+Show Hidden Lines,Hiển thị các đường ẩn
+Color Scheme Location,Vị trí màu sắc
+Color Scheme,Màu sắc
+Default Analysis Display Style,Phong cách hiển thị phân tích mặc định
+Associated Datum,Dữ liệu liên quan
+Sun Path,Đường đi của mặt trời
+Detail Number,Số chi tiết
+Sheet Number,Số tờ
+Sheet Name,Tên tờ
+Rotation on Sheet,Vòng quay trên tờ
+V/G Overrides Model,Đặt biệt quyền mô hình
+V/G Overrides Annotation,Đặt biệt quyền chú thích
+V/G Overrides Analytical Model,Đặt biệt quyền mô hình phân tích
+V/G Overrides Import,Đặt biệt quyền nhập
+V/G Overrides Filters,Đặt biệt quyền lọc
+V/G Overrides Worksets,Đặt biệt quyền bộ công việc
+V/G Overrides Point Clouds,Đặt biệt quyền đám mây điểm
+Model Display,Hiển thị mô hình
+Shadows,Ánh bóng
+Sketchy Lines,Các đường gợi ý
+Lighting,Ánh sáng
+Photographic Exposure,Độ phơi sáng của ảnh
+Underlay Orientation,Hướng của lớp dưới
+View Range,Phạm vi xem
+Orientation,Hướng
+System Color Schemes,Màu sắc hệ thống
+Depth Clipping,Cắt độ sâu
+Depth Cueing,Gợi ý độ sâu
+Background,Background
+Rendering Settings,Cài đặt rendering
+View,Xem
+Viewport Positioning,Vị trí cửa sổ xem
+Range: Base Level,Phạm vi: cấp độ cơ sở
+Range: Top Level,Phạm vi: cấp độ trên
+Associated Level,Cấp độ liên quan
+Wall Join Display,Hiển thị kết nối tường
+Title,Tiêu đề
+Show Title,Hiển thị tiêu đề
+Show Extension Line,Hiển thị đường mở rộng
+Preserve Title Position,Bảo tồn vị trí tiêu đề
+Line Weight,Trọng lượng đường
+Line Pattern,Mẫu đường
+Work Plane Grid Spacing,Khoảng cách lưới mặt công việc
+Revision Sequence,Chuỗi sửa đổi
+Revision Number,Số sửa đổi
+Revision Date,Ngày sửa đổi
+Revision Description,Mô tả sửa đổi
+Issued,Được phát hành
+Issued to,Được phát hành cho
+Issued by,Được phát hành bởi
+Numbering,Số hóa
+Organization Name,Tên tổ chức
+Organization Description,Mô tả tổ chức
+Building Name,Tên tòa nhà
+Author,Tác giả
+IfcSite GUID,GUID IfcSite
+IfcBuilding GUID,GUID IfcBuilding
+IfcProject GUID,GUID IfcProject
+Project Issue Date,Ngày phát hành dự án
+Project Status,Trạng thái dự án
+Client Name,Tên khách hàng
+Project Address,Địa chỉ dự án
+Project Name,Tên dự án
+Project Number,Số dự án
+Route Analysis Settings,Cài đặt phân tích tuyến
+Scale,Kích thước
+Date/Time Stamp,Đánh dấu thời gian
+Sheet Issue Date,Ngày phát hành tờ
+Drawn By,Được vẽ bởi
+Checked By,Được kiểm tra bởi
+Designed By,Được thiết kế bởi
+Approved By,Được phê duyệt bởi
+Sheet Width,Chiều rộng tờ
+Sheet Height,Chiều cao tờ
+File Path,Đường dẫn tệp
+Room Name,Tên phòng
+Room Number,Số phòng
+Sun path size (%),Kích thước đường đi của mặt trời (%)
+Level,Cấp độ
+Moves With Nearby Elements,Di chuyển cùng với các phần tử gần
+Detail Line,Đường chi tiết
+Length,Chiều dài
+Arc Leaders,Các đường dẫn hình cung
+Left Attachment,Đính kèm trái
+Right Attachment,Đính kèm phải
+Horizontal Align,Đánh dấu ngang
+Vertical Align,Đánh dấu dọc
+Keep Readable,Giữ đọc được
+Text Font,Font chữ
+Text Size,Kích thước chữ
+Tab Size,Kích thước tab
+Bold,In đậm
+Italic,In nghiêng
+Underline,Gạch dưới
+Width Factor,Tỷ số chiều rộng
+Show Border,Hiển thị đường biên
+Leader/Border Offset,Offset đường dẫn/đường biên
+Leader Arrowhead,Đầu mũi tên đường dẫn
+Service Type,Loại dịch vụ
+Coil Bypass,Bypass cuộn
+Cooling Information,Thông tin làm mát
+Heating Information,Thông tin sưởi ấm
+Outdoor Air Information,Thông tin không khí ngoài trời
+Calculated Heating Load,Tải nhiệt làm mát tính toán
+Calculated Heating Load per area,Tải nhiệt làm mát tính toán trên mỗi đơn vị diện tích
+Calculated Area per Heating Load,Diện tích tính toán trên mỗi tải nhiệt làm mát
+Calculated Cooling Load,Tải làm mát tính toán
+Calculated Cooling Load per area,Tải làm mát tính toán trên mỗi đơn vị diện tích
+Calculated Area per Cooling Load,Diện tích tính toán trên mỗi tải làm mát
+Calculated Supply Airflow,Lưu lượng không khí cung cấp tính toán
+Calculated Supply Airflow per area,Lưu lượng không khí cung cấp tính toán trên mỗi đơn vị diện tích
+Occupied Area,Diện tích chiếm dụng
+Gross Area,Diện tích toàn bộ
+Occupied Volume,Thể tích chiếm dụng
+Gross Volume,Thể tích toàn bộ
+Perimeter,Diện tích xung quanh
+Area per Person,Diện tích trên mỗi người
+Sensible Heat Gain per person,Tải nhiệt cảm nhận trên mỗi người
+Latent Heat Gain per person,Tải nhiệt ẩn trên mỗi người
+Specified Lighting Load per area,Tải ánh sáng xác định trên mỗi đơn vị diện tích
+Specified Power Load per area,Tải công suất xác định trên mỗi đơn vị diện tích
+Infiltration Airflow per area,Lưu lượng không khí xâm nhập trên mỗi đơn vị diện tích
+Plenum Lighting Contribution,Sự đóng góp của ánh sáng trong plenum
+Occupancy Schedule,Lịch sử chiếm dụng
+Lighting Schedule,Lịch sử ánh sáng
+Power Schedule,Lịch sử công suất
+Outdoor Air per Person,Không khí ngoài trời trên mỗi người
+Outdoor Air per Area,Không khí ngoài trời trên mỗi đơn vị diện tích
+Air Changes per Hour,Số lần thay đổi không khí mỗi giờ
+Outdoor Air Method,Phương pháp không khí ngoài trời
+Opening Time,Thời gian mở
+Closing Time,Thời gian đóng
+Unoccupied Cooling Set Point,Điểm làm mát không chiếm dụng
+Heating Set Point,Điểm sưởi ấm
+Cooling Set Point,Điểm làm mát
+Humidification Set Point,Điểm làm ẩm
+Dehumidification Set Point,Điểm làm khô
+N/S,Bắc/Nam
+E/W,Đông/Tây
+Elev,Độ cao
+Lat,Vĩ độ
+Lon,Kinh độ
+Angle to True North,Góc với Bắc thực
+Far Clip Active,Cắt xa hoạt động
+Locked Orientation,Hướng bị khóa
+Projection Mode,Chế độ chiếu
+Eye Elevation,Độ cao mắt
+Target Elevation,Độ cao mục tiêu
+Camera Position,Vị trí camera
+Section Box,Hộp cắt
+Show Grids,Hiển thị lưới
+Coarse Poche Material,Vật liệu poche thô
+Property Set Name,Tên bộ thuộc tính
+Keywords,Từ khóa
+Source URL,URL nguồn
+Source,Nguồn
+External Material ID,ID vật liệu bên ngoài
+Sharing,Chia sẻ
+Asset library id,ID thư viện tài nguyên
+Density,Khối lượng riêng
+Specific Heat,Nhiệt riêng
+Thermal Conductivity Z,Độ dẫn nhiệt Z
+Thermal Conductivity Y,Độ dẫn nhiệt Y
+Thermal Conductivity X,Độ dẫn nhiệt X
+Thermal Conductivity,Độ dẫn nhiệt
+Thermal Expansion Coefficient 2,Tỷ số giãn nở nhiệt 2
+Thermal Expansion Coefficient 1,Tỷ số giãn nở nhiệt 1
+Shear Modulus 12,Modul cắt 12
+Poisson Ratio 23,Tỷ số Poisson 23
+Poisson Ratio 12,Tỷ số Poisson 12
+Young's Modulus 2,Modul đàn hồi 2
+Young's Modulus 1,Modul đàn hồi 1
+Resistance calculation strength,Độ mạnh tính toán sức kháng
+Shear reinforcement yield stress,Áp suất kéo của gia cường cắt
+Bending reinforcement,Gia cường uốn
+Electrical Resistivity,Độ dẫn điện
+Reflectivity,Độ phản xạ
+Porosity,Độ thấm
+Permeability,Độ thấm
+Transmits Light,Chuyển ánh sáng
+Emissivity,Độ phát xạ
+Construction,Xây dựng
+5% Modulus of Elasticity,Modul đàn hồi 5%
+Average Modulus,Modul đàn hồi trung bình
+Tension Perpendicular to Grain,Tension vuông góc với hạt
+Tension Parallel to Grain,Tension song song với hạt
+Compressibility,Độ nén
+Gas Viscosity,Độ nhớt khí
+Segment Description,Mô tả đoạn
+Connection Type,Loại kết nối
+Roughness,Độ nhám
+Material,Vật liệu
+Schedule/Type,Lịch trình/loại
+Fields,Các trường
+Sorting/Grouping,Sắp xếp/đánh dấu
+Formatting,Định dạng
+Appearance,Hiện diện
+Filter,Lọc
+Phase Created,Giai đoạn được tạo
+Phase Demolished,Giai đoạn bị phá hủy
+Elevation from Level,Độ cao từ cấp độ
+Host,Chủ
+Offset from Host,Offset từ chủ
+Armrest Left,Ghế tay trái
+Armrest Right,Ghế tay phải
+Type IFC Predefined Type,Loại IFC định nghĩa trước
+Export Type to IFC As,Loại xuất sang IFC như
+Export Type to IFC,Loại xuất sang IFC
+Type IfcGUID,Loại GUID IFC
+Default Elevation,Độ cao mặc định
+Seat Material,Vật liệu ghế
+Legs Material,Vật liệu chân
+Frame Material,Vật liệu khung
+Back Material,Vật liệu lưng
+Width,Chiều rộng
+Weight,Trọng lượng
+Height,Chiều cao
+Depth,Chiều sâu
+Content Author,Tác giả nội dung
+Assembly Code,Mã lắp ráp
+Type Image,Loại hình ảnh
+Type Comments,Loại ghi chú
+Assembly Description,Mô tả lắp ráp
+Type Mark,Loại ký hiệu
+OmniClass Number,Số OmniClass
+OmniClass Title,Tiêu đề OmniClass
+Code Name,Tên mã
+deka,Deka
+konstrukcija,Konstrukcija
+noge,Noge
+plahta,Plahta
+duzina,Duzina
+sirina,Sirina
+Structural,Cấu trúc
+Structural Usage,Sử dụng cấu trúc
+Location Line,Đường vị trí
+Base Constraint,Giới hạn cơ sở
+Base Offset,Offset cơ sở
+Base is Attached,Cơ sở được gắn
+Base Extension Distance,Khoảng cách mở rộng cơ sở
+Top Constraint,Giới hạn trên
+Unconnected Height,Chiều cao không liên kết
+Top Offset,Offset trên
+Top is Attached,Trên được gắn
+Top Extension Distance,Khoảng cách mở rộng trên
+Room Bounding,Giới hạn phòng
+Related to Mass,Liên quan đến khối lượng
+Area,Diện tích
+Volume,Thể tích
+Cross-Section,Mặt cắt ngang
+Structure,Cấu trúc
+Coarse Scale Fill Pattern,Mẫu lấp đầy cấp độ thô
+Coarse Scale Fill Color,Màu sắc lấp đầy cấp độ thô
+Wrapping at Inserts,Bọc tại các điểm chèn
+Wrapping at Ends,Bọc tại các đầu
+Structural Material,Vật liệu cấu trúc
+Fire Rating,Đánh giá lửa
+Function,Chức năng
+Heat Transfer Coefficient (U),Hệ số chuyển nhiệt
+Thermal Resistance (R),Kháng nhiệt
+Thermal Mass,Khối nhiệt
+Absorptance,Tính hấp thụ
+Sill Height,Chiều cao chân cửa
+Finish,Hoàn thiện
+Frame Type,Loại khung
+Head Height,Chiều cao đầu
+Define Thermal Properties by,Xác định tính chất nhiệt bằng
+Visual Light Transmittance,Độ truyền ánh sáng nhìn thấy
+Solar Heat Gain Coefficient,Hệ số tăng nhiệt từ ánh sáng mặt trời
+Analytic Construction,Kết cấu phân tích
+Operation,Hoạt động
+Door Material,Vật liệu cửa
+Wall Closure,Khóa tường
+Construction Type,Loại kết cấu
+Thickness,Độ dày
+Trim Projection Ext,Dự kiến cắt giảm bên ngoài
+Trim Projection Int,Dự kiến cắt giảm bên trong
+Trim Width,Chiều rộng cắt giảm
+Rough Width,Chiều rộng thô
+Rough Height,Chiều cao thô
+Location,Vị trí
+Panel,Bảng
+Circuit Number,Số mạch
+Weight Net (Kg),Trọng lượng net (kg)
+Region South America,Khu vực Nam Mỹ
+Region Oceania,Khu vực Oceania
+Region North America,Khu vực Bắc Mỹ
+Region Middle East,Khu vực Trung Đông
+Region Europe,Khu vực châu Âu
+Region Asia,Khu vực châu Á
+Region Antarctica,Khu vực Nam Cực
+Region Africa,Khu vực châu Phi
+QR code,Mã QR
+Product group,Nhóm sản phẩm
+Product family,Gia đình sản phẩm
+Product SKU,Mã SKU sản phẩm
+Nominal width,Chiều rộng danh nghĩa
+Nominal height,Chiều cao danh nghĩa
+Manufacturer name,Tên nhà sản xuất
+Manufacturer country,Quốc gia nhà sản xuất
+Edition number,Số phiên bản
+Design country,Quốc gia thiết kế
+Date of publishing,Ngày xuất bản
+Uniclass 2.0 Description,Mô tả Uniclass 2.0
+Uniclass 2.0 Code,Mã Uniclass 2.0
+Uniclass 1.4 Description,Mô tả Uniclass 1.4
+Uniclass 1.4 Code,Mã Uniclass 1.4
+UNSPSC Code,Mã UNSPSC
+OmniClass Description,Mô tả OmniClass
+OmniClass Code,Mã OmniClass
+NBS Reference Description,Mô tả tham khảo NBS
+NBS Reference Code,Mã tham khảo NBS
+IFC Classification,Phân loại IFC
+COBIe Type Category,Loại phân loại COBIe
+BIMobject category,Loại BIMobject
+Material secondary,Vật liệu thứ cấp
+Material main,Vật liệu chính
+Youtube clip,Video Youtube
+Technical description,Mô tả kỹ thuật
+Product data url,URL dữ liệu sản phẩm
+Product certification,Chứng nhận sản phẩm
+Product Guid,Hướng dẫn sản phẩm
+Installation instructions,Hướng dẫn lắp đặt
+EAN code,Mã EAN
+Weight_IP,Trọng lượng IP
+Watts2,Công suất 2
+Watts1,Công suất 1
+Unit_Issue,Đơn vị phát hành
+UTIL_6_Misc,Dụng cụ 6
+UTIL_5_NonMedGas,Dụng cụ 5
+UTIL_4_MiscGas,Dụng cụ 4
+UTIL_3_MedGas,Dụng cụ 3
+UTIL_2_Elec,Dụng cụ 2
+UTIL_1_WaterDrain,Dụng cụ 1
+Top Panel Material,Vật liệu bảng trên
+Toe Panel Material,Vật liệu bảng chân
+Side Panel Material,Vật liệu bảng bên
+Shelf Panel Material,Vật liệu bảng giá
+Nomenclature,Tên gọi
+NSN,Mã NSN
+JSN,Mã JSN
+Fund_Source_VA,Nguồn vốn VA
+Fund_Source_Navy,Nguồn vốn Hải quân
+Fund_Source_Army,Nguồn vốn Quân đội
+Fund_Source_AF,Nguồn vốn Không quân
+ELEC_Volts2,Điện áp 2
+ELEC_Volts1,Điện áp 1
+ELEC_Phase2,Giai đoạn 2
+ELEC_Phase1,Giai đoạn 1
+ELEC_HertzSwitch,Tần số chuyển đổi
+ELEC_HertzDependent,Tần số phụ thuộc
+ELEC_Hertz,Tần số
+ELEC_Amps2,Aptom 2
+ELEC_Amps1,Aptom 1
+Drawer Front Material,Vật liệu mặt trước ngăn kéo
+Door Panel Material,Vật liệu bảng cửa
+DetailDescription,Mô tả chi tiết
+DIM_Width_IP,Chiều rộng IP
+DIM_Height_IP,Chiều cao IP
+DIM_Depth_IP,Chiều sâu IP
+CAT_VA,Loại VA
+CAT_Navy,Loại Hải quân
+CAT_IHS,Loại IHS
+CAT_Army,Loại Quân đội
+CAT_AF,Loại Không quân
+Back Panel Material,Vật liệu bảng sau
+BTUperhour,Đơn vị BTU/h
+Left Back Pipe Gate,Cửa ống trái sau
+Left Pipe Gate,Cửa ống trái
+Right Back Pipe Gate,Cửa ống phải sau
+Right Pipe Gate,Cửa ống phải
+Power,Công suất
+Critical Path,Đường đi quan trọng
+Schedule Level,Cấp lịch
+Drain Pipe Fixture Units,Đơn vị ống thoát nước
+Gas Pipe Flow,Lưu lượng ống khí
+Liquid Pipe Flow,Lưu lượng ống lỏng
+System Classification,Phân loại hệ thống
+System Name,Tên hệ thống
+Function Code,Mã chức năng
+Right Bottom Pipe Gate,Cửa ống phải dưới
+IFCExportAs,Xuất IFC như
+IFCExportType,Loại xuất IFC
+Frequency,Tần số
+Voltage,Điện áp
+Cooling Capacity (kW),Công suất làm mát (kW)
+Heating Capacity (kW),Công suất sưởi (kW)
+Cooling Input Power (kW),Công suất đầu vào làm mát (kW)
+Heating Input Power (kW),Công suất đầu vào sưởi (kW)
+Airflow rate_HIGH_Cooling (m3/h),Lưu lượng không khí làm mát cao (m3/h)
+Airflow rate_MED_Cooling (m3/h),Lưu lượng không khí làm mát trung bình (m3/h)
+Airflow rate_LOW_Cooling (m3/h),Lưu lượng không khí làm mát thấp (m3/h)
+Airflow rate_QUIET_Cooling (m3/h),Lưu lượng không khí làm mát yên tĩnh (m3/h)
+Airflow rate_HIGH_Heating (m3/h),Lưu lượng không khí sưởi cao (m3/h)
+Airflow rate_MED_Heating (m3/h),Lưu lượng không khí sưởi trung bình (m3/h)
+Airflow rate_LOW_Heating (m3/h),Lưu lượng không khí sưởi thấp (m3/h)
+Airflow rate_QUIET_Heating (m3/h),Lưu lượng không khí sưởi yên tĩnh (m3/h)
+Sound Pressure Level_HIGH_Cooling (dB(A)),Cấp áp âm thanh làm mát cao (dB(A))
+Sound Pressure Level_MED_Cooling (dB(A)),Cấp áp âm thanh làm mát trung bình (dB(A))
+Sound Pressure Level_LOW_Cooling (dB(A)),Cấp áp âm thanh làm mát thấp (dB(A))
+Sound Pressure Level_QUIET_Cooling (dB(A)),Cấp áp âm thanh làm mát yên tĩnh (dB(A))
+Sound Pressure Level_HIGH_Heating (dB(A)),Cấp áp âm thanh sưởi cao (dB(A))
+Sound Pressure Level_MED_Heating (dB(A)),Cấp áp âm thanh sưởi trung bình (dB(A))
+Sound Pressure Level_LOW_Heating (dB(A)),Cấp áp âm thanh sưởi thấp (dB(A))
+Sound Pressure Level_QUIET_Heating (dB(A)),Cấp áp âm thanh sưởi yên tĩnh (dB(A))
+Cooling Sound Power Level (dB(A)),Cấp công suất âm thanh làm mát (dB(A))
+Heating Sound Power Level (dB(A)),Cấp công suất âm thanh sưởi (dB(A))
+Classification,Phân loại
+White,Trắng
+Depth (mm),Chiều sâu (mm)
+Height (mm),Chiều cao (mm)
+Width (mm),Chiều rộng (mm)
+Liquid Pipe Diameter (mm),Đường kính ống lỏng (mm)
+Gas Pipe Diameter (mm),Đường kính ống khí (mm)
+Drain Pipe Diamater (mm),Đường kính ống thoát nước (mm)
+Article Description,Mô tả sản phẩm
+Article Type,Loại sản phẩm
+CB-NL Class,Loại CB-NL
+Copyright,Quyền sở hữu
+Custom,Tùy chỉnh
+EMCS Version,Phiên bản EMCS
+ETIM Article Class,Loại sản phẩm ETIM
+Family Version,Phiên bản gia đình
+GLN,Mã GLN
+GTIN,Mã GTIN
+Internal ArtNo.,Số nội bộ
+MEPcontent Class,Loại nội dung MEP
+Manufacturer ArtNo.,Số sản phẩm nhà sản xuất
+Manufacturer URL,URL nhà sản xuất
+Product Line,Dòng sản phẩm
+Revit Version,Phiên bản Revit
+Stabu Code,Mã Stabu
+Wholesaler,Nhà phân phối
+Wholesaler ArtNo.,Số nhà phân phối
+Unit Weight (kg),Trọng lượng đơn vị (kg)
+Height Offset From Level,Chiều cao offset từ mức
+Has Association,Có liên kết
+Slope,Góc nghiêng
+Elevation at Top,Mức độ cao trên
+Elevation at Bottom,Mức độ cao dưới
+Default Thickness,Độ dày mặc định
+Defines Slope,Định nghĩa góc nghiêng
+Defines Constant Height,Định nghĩa chiều cao cố định
+Offset From Base,Offset từ cơ sở
+Concrete Cantilever,Cầu cantilever bằng bê tông
+Steel Cantilever,Cầu cantilever bằng thép
+Alignment Method,Phương pháp căn chỉnh
+In-Plane Projection,Dự kiến trong mặt phẳng
+Manually Adjusted,Được điều chỉnh thủ công
+Wall offset,Offset tường
+Extend into wall (to core),Tăng vào tường (đến lõi)
+Exterior Trim Visibility,Độ nhìn thấy của cắt giảm bên ngoài
+Interior Trim Visibility,Độ nhìn thấy của cắt giảm bên trong
+Extension Jamb Visibility,Độ nhìn thấy của cột mở rộng
+Window Inset,Cửa sổ chèn
+Exterior Wall Closure,Khóa tường bên ngoài
+Interior Wall Closure,Khóa tường bên trong
+Extension Jamb,Cột mở rộng
+Wall Thickness,Độ dày tường
+Frame Extension,Cắt giảm khung
+Host Family,Gia đình chủ
+Exterior Frame Material,Vật liệu khung bên ngoài
+Interior Frame Material,Vật liệu khung bên trong
+Exterior Trim Material,Vật liệu cắt giảm bên ngoài
+Interior Trim Material,Vật liệu cắt giảm bên trong
+Glass Panel Material,Vật liệu bảng kính
+Muntin Visibility,Độ nhìn thấy của muntin
+Muntin Pattern,Mẫu muntin
+Exterior Trim,Cắt giảm bên ngoài
+Interior Trim,Cắt giảm bên trong
+Default Sill Height,Chiều cao chân cửa mặc định
+Half Width,Chiều rộng nửa
+Exterior Material,Vật liệu bên ngoài
+Interior Material,Vật liệu bên trong
+Sub Family,Gia đình con
+Distance,Khoảng cách
+Trim Material,Vật liệu cắt giảm
+Opening Width,Chiều rộng mở
+Opening Height,Chiều cao mở
+Picture Frame,Cắt giảm hình ảnh
+Sill,Chân cửa
+Trim Thickness_Picture Frame,Độ dày cắt giảm hình ảnh
+Trim Thickness_with Sill,Độ dày cắt giảm với chân cửa
+Sill Thickness,Độ dày chân cửa
+Number,Số
+Upper Limit,Giới hạn trên
+Limit Offset,Offset giới hạn
+Unbounded Height,Chiều cao không giới hạn
+Occupancy,Tình trạng chiếm dụng
+Department,Bộ phận
+Base Finish,Hoàn thiện cơ sở
+Ceiling Finish,Hoàn thiện trần
+Wall Finish,Hoàn thiện tường
+Floor Finish,Hoàn thiện sàn
+Occupant,Người chiếm dụng
+Computation Height,Chiều cao tính toán
+Leader Line,Dòng chỉ dẫn
+Angle,Góc
+Show Volume,Hiển thị thể tích
+Show Room Number,Hiển thị số phòng
+Show Area,Hiển thị diện tích
+Electrical Data,Dữ liệu điện
+Calculate Coefficient of Utilization,Tính toán hệ số sử dụng
+Coefficient of Utilization,Hệ số sử dụng
+Switch ID,Mã chuyển đổi
+Tilt Angle,Góc nghiêng
+Photometric Web File,File web photometric
+Light Loss Factor,Hệ số mất ánh sáng
+Initial Intensity,Độ sáng ban đầu
+Initial Color,Màu sắc ban đầu
+Dimming Lamp Color Temperature Shift,Sự thay đổi nhiệt độ màu sắc của đèn giảm sáng
+Color Filter,Lọc màu
+Light Source Definition (family),Định nghĩa nguồn ánh sáng (gia đình)
+Load Classification,Phân loại tải
+Number of Poles,Số cột
+Lamp,Đèn
+Wattage Comments,Ghi chú công suất
+Apparent Load,Tải biểu kiến
+Base Material,Vật liệu cơ sở
+Shade Material,Vật liệu bóng
+Feed Through Lugs,Lỗ thông qua
+SubFeed Lugs,Lỗ phụ
+MCB Rating,Đánh giá MCB
+Feed,Động lực
+Circuit Naming,Tên mạch
+Circuit Prefix Separator,Separator tiền tố mạch
+Circuit Prefix,Tiền tố mạch
+Modifications,Sự thay đổi
+Mains,Mains
+Short Circuit Rating,Đánh giá mạch ngắn
+Max Number of Single Pole Breakers,Số cực đơn cực lớn nhất
+Distribution System,Hệ thống phân phối
+Supply From,Cung cấp từ
+Number of Wires,Số dây
+Number of Phases,Số pha
+Circuit Numbering Option,Tùy chọn số mạch
+Enclosure,Bọc
+Mounting,Cố định
+Panel Name,Tên bảng
+Total Connected,Tổng kết nối
+Total Estimated Demand,Tổng yêu cầu ước tính
+Total Demand Factor,Hệ số yêu cầu tổng
+Total Connected Current,Tổng dòng điện kết nối
+Total Estimated Demand Current,Tổng dòng điện yêu cầu ước tính
+Apparent Load Phase A,Tải biểu kiến pha A
+Apparent Load Phase B,Tải biểu kiến pha B
+Apparent Load Phase C,Tải biểu kiến pha C
+Current Phase A,Dòng điện pha A
+Current Phase B,Dòng điện pha B
+Current Phase C,Dòng điện pha C
+Schedule Header Notes,Ghi chú đầu lịch
+Schedule Footer Notes,Ghi chú cuối lịch
+Neutral Rating,Đánh giá trung tính
+Neutral Bus,Buses trung tính
+Ground Bus,Buses đất
+Bussing,Bussing
+Mains Type,Loại Mains
+Wattage,Công suất
+Mounting Height,Chiều cao cố định
+Placement Height,Chiều cao đặt
+Family Name,Tên Họ

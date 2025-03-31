@@ -32,7 +32,6 @@ async def fetch_news(url: str):
         except httpx.RequestError as e:
             return f"Request error: {e}"
 
-@mcp.tool()        
 async def read_data_csv(file_path: str):
     """Reads a CSV file and returns the data as a pandas DataFrame."""
     try:
@@ -41,7 +40,7 @@ async def read_data_csv(file_path: str):
     except FileNotFoundError:
         return "File not found"
 
-@mcp.tool()
+
 async def get_walls_data(df: pd.DataFrame, column_name: str = 'category'):
     """Returns the data of the walls in the database."""
     category_column = [col for col in df.columns if column_name.lower() in col.lower()]
@@ -80,22 +79,6 @@ async def classification_value_in_column(column: str):
         return f"Column '{column}' not found in the data."
     unique_values = df[column].unique()
     return unique_values.tolist()
-
-@mcp.tool()
-async def get_walls_data_from_csv():
-    """
-    Fetches the walls data from the CSV file.
-
-    Returns:
-    A list of walls data.
-    """
-    file_path = "data.csv"
-    df = await read_data_csv(file_path)
-    walls = await get_walls_data(df, column_name='Category')
-    if not walls:
-        return "No walls found in the data."
-    # Convert the list of walls to a DataFrame
-    return walls
 
 @mcp.tool() # đang bị lỗi
 async def search_different_components_in_columns(column_name='Category', component_name='Revit Walls'):

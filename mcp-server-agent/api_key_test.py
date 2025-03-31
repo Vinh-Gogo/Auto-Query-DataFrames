@@ -1,59 +1,28 @@
 import anthropic
-import os
-import time
 
-# Thay thế YOUR_ANTHROPIC_API_KEY bằng API key thực tế của bạn
-api_key = ""
-client = anthropic.Anthropic(api_key=api_key)
+client = anthropic.Anthropic()
 
-message_batch = client.beta.messages.batches.create(
-    requests=[
+response = client.messages.create(
+    model="claude-3-7-sonnet-20250219",
+    max_tokens=1024,
+    tools=[
         {
-            "custom_id": "first-prompt-in-my-batch",
-            "params": {
-                "model": "claude-3-haiku-20240229",
-                "max_tokens": 1024,
-                "messages": [
-                    {
-                        "role": "user",
-                        "content": "Hey Claude, tell me a short fun fact about video games!",
-                    }
-                ],
+            "name": "get_all_keys",
+            "description": "Get all the keys in the data",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "dbId": {"type": "string", "description": "The unique identifier for the database entry."},
+                    "external_id": {"type": "string", "description": "The external identifier for the database entry."},
+                    "ElementId": {"type": "string", "description": "The element identifier for the database entry."},
+                    # Add other properties as needed
+                },
+                "required": ["dbId", "external_id", "ElementId"],
             },
-        },
-        {
-            "custom_id": "second-prompt-in-my-batch",
-            "params": {
-                "model": "claude-3-sonnet-20240229",
-                "max_tokens": 1024,
-                "messages": [
-                    {
-                        "role": "user",
-                        "content": "Hey Claude, tell me a short fun fact about bees!",
-                    }
-                ],
-            },
-        },
-    ]
+        }
+    ],
+    messages=[
+        {"role": "tool", "content": "Get all the columns in the data."},
+    ],
 )
-print(f"Batch ID: {message_batch.id}")
-
-while message_batch.processing_status == "in_progress":
-    print("Batch is still processing...")
-    time.sleep(5)  # Chờ một khoảng thời gian trước khi kiểm tra lại
-    message_batch = client.beta.messages.batches.retrieve(message_batch.id)
-
-print(f"Batch status: {message_batch.processing_status}")
-if message_batch.processing_status == "succeeded":
-    # Lấy kết quả từ results_url (nếu có) hoặc thông qua các phương thức khác
-    print(f"Results URL: {message_batch.results_url}")
-    # Bạn có thể cần gọi một API khác để lấy kết quả chi tiết của từng request
-    # Ví dụ (có thể cần điều chỉnh theo API của Anthropic):
-    # for request_result in client.beta.messages.batches.results(message_batch.id):
-    #     print(f"Result for {request_result.custom_id}: {request_result.response.content[0].text}")
-else:
-    print(f"Batch failed or expired. Status: {message_batch.processing_status}")
-
-print(message_batch)
-
-
+print(response)

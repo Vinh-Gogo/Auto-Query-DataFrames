@@ -1,4 +1,4 @@
-# MCP-Query-Dataset
+# Auto Query-Dataset
  
-## example mcp: https://modelcontextprotocol.io/quickstart/server
-## document anthropic message tool: https://docs.anthropic.com/en/api/messages-examples
+## example mcp: https://modelcontextprotocol.io/quickstart/server (free)
+## document anthropic message tool use: https://docs.anthropic.com/en/api/messages-examples (pay fee)
